@@ -13,7 +13,7 @@ docker network create --driver bridge testNet
 docker inspect testNet         
 ```
 
-Change network ip in docker-compose in each node directory to new subnetwork ip by sequently 
+Change network ip in docker-compose in each node directory  besu/node1, tessera/node1/config to new subnetwork ip by sequently 
 ```sh
 networks:
       testNet:
